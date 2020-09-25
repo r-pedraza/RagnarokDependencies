@@ -1,0 +1,331 @@
+PODS:
+  - Alamofire (5.1.0)
+  - AlamofireNetworkActivityIndicator (3.1.0):
+    - Alamofire (~> 5.1)
+  - CNIOAtomics (2.16.0)
+  - Crashlytics (3.14.0):
+    - Fabric (~> 1.10.2)
+  - DeviceIdentificator (2.1.0)
+  - Differentiator (4.0.1)
+  - EarlGrey (1.16.0)
+  - Fabric (1.10.2)
+  - Firebase/Analytics (6.22.0):
+    - Firebase/Core
+  - Firebase/Core (6.22.0):
+    - Firebase/CoreOnly
+    - FirebaseAnalytics (= 6.4.1)
+  - Firebase/CoreOnly (6.22.0):
+    - FirebaseCore (= 6.6.6)
+  - Firebase/Performance (6.22.0):
+    - Firebase/CoreOnly
+    - FirebasePerformance (~> 3.1.11)
+  - Firebase/RemoteConfig (6.22.0):
+    - Firebase/CoreOnly
+    - FirebaseRemoteConfig (~> 4.4.9)
+  - Firebase/Storage (6.22.0):
+    - Firebase/CoreOnly
+    - FirebaseStorage (~> 3.6.0)
+  - FirebaseABTesting (3.2.0):
+    - FirebaseAnalyticsInterop (~> 1.3)
+    - FirebaseCore (~> 6.1)
+    - Protobuf (>= 3.9.2, ~> 3.9)
+  - FirebaseAnalytics (6.4.1):
+    - FirebaseCore (~> 6.6)
+    - FirebaseInstallations (~> 1.1)
+    - GoogleAppMeasurement (= 6.4.1)
+    - GoogleUtilities/AppDelegateSwizzler (~> 6.0)
+    - GoogleUtilities/MethodSwizzler (~> 6.0)
+    - GoogleUtilities/Network (~> 6.0)
+    - "GoogleUtilities/NSData+zlib (~> 6.0)"
+    - nanopb (= 0.3.9011)
+  - FirebaseAnalyticsInterop (1.5.0)
+  - FirebaseAuthInterop (1.1.0)
+  - FirebaseCore (6.6.6):
+    - FirebaseCoreDiagnostics (~> 1.2)
+    - FirebaseCoreDiagnosticsInterop (~> 1.2)
+    - GoogleUtilities/Environment (~> 6.5)
+    - GoogleUtilities/Logger (~> 6.5)
+  - FirebaseCoreDiagnostics (1.2.3):
+    - FirebaseCoreDiagnosticsInterop (~> 1.2)
+    - GoogleDataTransportCCTSupport (~> 2.0)
+    - GoogleUtilities/Environment (~> 6.5)
+    - GoogleUtilities/Logger (~> 6.5)
+    - nanopb (~> 0.3.901)
+  - FirebaseCoreDiagnosticsInterop (1.2.0)
+  - FirebaseInstallations (1.1.1):
+    - FirebaseCore (~> 6.6)
+    - GoogleUtilities/UserDefaults (~> 6.5)
+    - PromisesObjC (~> 1.2)
+  - FirebaseInstanceID (4.3.3):
+    - FirebaseCore (~> 6.6)
+    - FirebaseInstallations (~> 1.0)
+    - GoogleUtilities/Environment (~> 6.5)
+    - GoogleUtilities/UserDefaults (~> 6.5)
+  - FirebasePerformance (3.1.11):
+    - FirebaseCore (~> 6.6)
+    - FirebaseInstallations (~> 1.1)
+    - FirebaseRemoteConfig (~> 4.4)
+    - GoogleToolboxForMac/Logger (~> 2.1)
+    - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
+    - GoogleUtilities/Environment (~> 6.2)
+    - GoogleUtilities/ISASwizzler (~> 6.2)
+    - GoogleUtilities/MethodSwizzler (~> 6.2)
+    - GTMSessionFetcher/Core (~> 1.1)
+    - Protobuf (~> 3.9)
+  - FirebaseRemoteConfig (4.4.9):
+    - FirebaseABTesting (~> 3.1)
+    - FirebaseAnalyticsInterop (~> 1.4)
+    - FirebaseCore (~> 6.2)
+    - FirebaseInstanceID (~> 4.2)
+    - GoogleUtilities/Environment (~> 6.2)
+    - "GoogleUtilities/NSData+zlib (~> 6.2)"
+    - Protobuf (>= 3.9.2, ~> 3.9)
+  - FirebaseStorage (3.6.0):
+    - FirebaseAuthInterop (~> 1.1)
+    - FirebaseCore (~> 6.6)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - GoogleAnalytics (3.17.0)
+  - GoogleAppMeasurement (6.4.1):
+    - GoogleUtilities/AppDelegateSwizzler (~> 6.0)
+    - GoogleUtilities/MethodSwizzler (~> 6.0)
+    - GoogleUtilities/Network (~> 6.0)
+    - "GoogleUtilities/NSData+zlib (~> 6.0)"
+    - nanopb (= 0.3.9011)
+  - GoogleDataTransport (5.1.1)
+  - GoogleDataTransportCCTSupport (2.0.3):
+    - GoogleDataTransport (~> 5.1)
+    - nanopb (~> 0.3.901)
+  - GoogleSymbolUtilities (1.1.2)
+  - GoogleTagManager (7.1.3):
+    - FirebaseAnalytics (~> 6.3)
+    - GoogleAnalytics (~> 3.17)
+    - GoogleUtilitiesLegacy (~> 1.3)
+  - GoogleToolboxForMac/Defines (2.2.2)
+  - GoogleToolboxForMac/Logger (2.2.2):
+    - GoogleToolboxForMac/Defines (= 2.2.2)
+  - "GoogleToolboxForMac/NSData+zlib (2.2.2)":
+    - GoogleToolboxForMac/Defines (= 2.2.2)
+  - GoogleUtilities (6.5.2):
+    - GoogleUtilities/AppDelegateSwizzler (= 6.5.2)
+    - GoogleUtilities/Environment (= 6.5.2)
+    - GoogleUtilities/ISASwizzler (= 6.5.2)
+    - GoogleUtilities/Logger (= 6.5.2)
+    - GoogleUtilities/MethodSwizzler (= 6.5.2)
+    - GoogleUtilities/Network (= 6.5.2)
+    - "GoogleUtilities/NSData+zlib (= 6.5.2)"
+    - GoogleUtilities/Reachability (= 6.5.2)
+    - GoogleUtilities/SwizzlerTestHelpers (= 6.5.2)
+    - GoogleUtilities/UserDefaults (= 6.5.2)
+  - GoogleUtilities/AppDelegateSwizzler (6.5.2):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Network
+  - GoogleUtilities/Environment (6.5.2)
+  - GoogleUtilities/ISASwizzler (6.5.2)
+  - GoogleUtilities/Logger (6.5.2):
+    - GoogleUtilities/Environment
+  - GoogleUtilities/MethodSwizzler (6.5.2):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/Network (6.5.2):
+    - GoogleUtilities/Logger
+    - "GoogleUtilities/NSData+zlib"
+    - GoogleUtilities/Reachability
+  - "GoogleUtilities/NSData+zlib (6.5.2)"
+  - GoogleUtilities/Reachability (6.5.2):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/SwizzlerTestHelpers (6.5.2):
+    - GoogleUtilities/MethodSwizzler
+  - GoogleUtilities/UserDefaults (6.5.2):
+    - GoogleUtilities/Logger
+  - GoogleUtilitiesLegacy (1.3.2):
+    - GoogleSymbolUtilities (~> 1.1)
+  - GTMSessionFetcher/Core (1.3.1)
+  - indigitall-ios (4.5.2)
+  - lottie-ios (3.1.8)
+  - MasMagicPills (2.4.1)
+  - MasMini-Swift (1.2.0):
+    - MasMini-Swift/Core (= 1.2.0)
+    - RxSwift (~> 5.1)
+    - SwiftNIOConcurrencyHelpers (~> 2.16.0)
+  - MasMini-Swift/Core (1.2.0):
+    - RxSwift (~> 5.1)
+    - SwiftNIOConcurrencyHelpers (~> 2.16.0)
+  - MM-PoEditor-Parser (1.2.0)
+  - nanopb (0.3.9011):
+    - nanopb/decode (= 0.3.9011)
+    - nanopb/encode (= 0.3.9011)
+  - nanopb/decode (0.3.9011)
+  - nanopb/encode (0.3.9011)
+  - PrettyLogger (2.0.0)
+  - PromisesObjC (1.2.8)
+  - Protobuf (3.11.4)
+  - RxCocoa (5.1.1):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxDataSources (4.0.1):
+    - Differentiator (~> 4.0)
+    - RxCocoa (~> 5.0)
+    - RxSwift (~> 5.0)
+  - RxLocalizer (1.5.0):
+    - RxCocoa (~> 5.1.1)
+    - RxSwift (~> 5.1.1)
+  - RxMasMagicPills (1.0.1):
+    - MasMagicPills
+    - RxCocoa (~> 5)
+    - RxSwift (~> 5)
+  - RxRelay (5.1.1):
+    - RxSwift (~> 5)
+  - RxSwift (5.1.1)
+  - RxTheme (4.1.1):
+    - RxCocoa (~> 5.0)
+    - RxSwift (~> 5.0)
+  - SkeletonView (1.8.7)
+  - Sourcery (0.18.0)
+  - SwiftCheck (0.12.0)
+  - SwiftLint (0.39.2)
+  - SwiftNIOConcurrencyHelpers (2.16.0):
+    - CNIOAtomics (= 2.16.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 5)
+  - AlamofireNetworkActivityIndicator (~> 3)
+  - Crashlytics
+  - DeviceIdentificator
+  - EarlGrey
+  - Fabric
+  - Firebase/Analytics
+  - Firebase/Core
+  - Firebase/Performance
+  - Firebase/RemoteConfig
+  - Firebase/Storage
+  - GoogleTagManager
+  - GoogleUtilities
+  - indigitall-ios
+  - lottie-ios
+  - MasMagicPills
+  - MasMini-Swift
+  - MM-PoEditor-Parser
+  - PrettyLogger
+  - RxCocoa (~> 5)
+  - RxDataSources (~> 4)
+  - RxLocalizer
+  - RxMasMagicPills
+  - RxSwift (~> 5)
+  - RxTheme (~> 4)
+  - SkeletonView
+  - Sourcery
+  - SwiftCheck
+  - SwiftLint
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - AlamofireNetworkActivityIndicator
+    - CNIOAtomics
+    - Crashlytics
+    - DeviceIdentificator
+    - Differentiator
+    - EarlGrey
+    - Fabric
+    - Firebase
+    - FirebaseABTesting
+    - FirebaseAnalytics
+    - FirebaseAnalyticsInterop
+    - FirebaseAuthInterop
+    - FirebaseCore
+    - FirebaseCoreDiagnostics
+    - FirebaseCoreDiagnosticsInterop
+    - FirebaseInstallations
+    - FirebaseInstanceID
+    - FirebasePerformance
+    - FirebaseRemoteConfig
+    - FirebaseStorage
+    - GoogleAnalytics
+    - GoogleAppMeasurement
+    - GoogleDataTransport
+    - GoogleDataTransportCCTSupport
+    - GoogleSymbolUtilities
+    - GoogleTagManager
+    - GoogleToolboxForMac
+    - GoogleUtilities
+    - GoogleUtilitiesLegacy
+    - GTMSessionFetcher
+    - indigitall-ios
+    - lottie-ios
+    - MasMagicPills
+    - MasMini-Swift
+    - MM-PoEditor-Parser
+    - nanopb
+    - PrettyLogger
+    - PromisesObjC
+    - Protobuf
+    - RxCocoa
+    - RxDataSources
+    - RxLocalizer
+    - RxMasMagicPills
+    - RxRelay
+    - RxSwift
+    - RxTheme
+    - SkeletonView
+    - Sourcery
+    - SwiftCheck
+    - SwiftLint
+    - SwiftNIOConcurrencyHelpers
+
+SPEC CHECKSUMS:
+  Alamofire: 9d5c5f602928e512395b30950c5984eca840093c
+  AlamofireNetworkActivityIndicator: 6564782bd7b9e6c430ae67d9277af01907b01ca4
+  CNIOAtomics: d2df68d8f6469d30897eed150d79a35aa109dc6e
+  Crashlytics: 540b7e5f5da5a042647227a5e3ac51d85eed06df
+  DeviceIdentificator: 42196ae61b4b27e588651f60c82b7196a206867d
+  Differentiator: 886080237d9f87f322641dedbc5be257061b0602
+  EarlGrey: 455e5597ae5ccaca92cd46b81d8b25cacec060a1
+  Fabric: 706c8b8098fff96c33c0db69cbf81f9c551d0d74
+  Firebase: 32f9520684e87c7af3f0704f7f88042626d6b536
+  FirebaseABTesting: 821a3a3e4a145987e80fee3657c4de1cb9adf693
+  FirebaseAnalytics: 83f822fd0d33a46f49f89b8c3ab16ab4d89df08a
+  FirebaseAnalyticsInterop: 3f86269c38ae41f47afeb43ebf32a001f58fcdae
+  FirebaseAuthInterop: a0f37ae05833af156e72028f648d313f7e7592e9
+  FirebaseCore: 9aca0f1fffb405176ba15311a5621fcde4106fcf
+  FirebaseCoreDiagnostics: 13a6564cd6d5375066bbc8940cc1753af24497f3
+  FirebaseCoreDiagnosticsInterop: 296e2c5f5314500a850ad0b83e9e7c10b011a850
+  FirebaseInstallations: acb3216eb9784d3b1d2d2d635ff74fa892cc0c44
+  FirebaseInstanceID: 4b87a9a75ef628a53bb5de46e4d4cecfcce88c02
+  FirebasePerformance: 5652d2004001e886da6dca04f478c695f87c4702
+  FirebaseRemoteConfig: 47abf7a04a9082091955ea555aa79cfdd249b19c
+  FirebaseStorage: b43ee271294227e1a3225544b073f3b49b427f46
+  GoogleAnalytics: f42cc53a87a51fe94334821868d9c8481ff47a7b
+  GoogleAppMeasurement: e49be3954045b17d046f271b9cc1ec052bad9702
+  GoogleDataTransport: 6ffa4dd0b6d547f8d27b91bd92fa9e197a3f5f1f
+  GoogleDataTransportCCTSupport: 2d7e609f8c5af1a33d7d59053e6f8cba59365df5
+  GoogleSymbolUtilities: 631ee17048aa5e9ab133470d768ea997a5ef9b96
+  GoogleTagManager: a5b872a9aae225c83587cc526d816b0323961845
+  GoogleToolboxForMac: 800648f8b3127618c1b59c7f97684427630c5ea3
+  GoogleUtilities: ad0f3b691c67909d03a3327cc205222ab8f42e0e
+  GoogleUtilitiesLegacy: 5501bedec1646bd284286eb5fc9453f7e23a12f4
+  GTMSessionFetcher: cea130bbfe5a7edc8d06d3f0d17288c32ffe9925
+  indigitall-ios: 930a1c3993508f18ac5c6af06f633b1e7900e310
+  lottie-ios: 48fac6be217c76937e36e340e2d09cf7b10b7f5f
+  MasMagicPills: 2997fa7e170f1bb9c5ac6603664dacf3011d47cf
+  MasMini-Swift: ac197a2c583a5234faf0538a58bb60d61ef068a4
+  MM-PoEditor-Parser: fcf20ae315fba80fccd5cf2b03bf6bcef9f90f2e
+  nanopb: 18003b5e52dab79db540fe93fe9579f399bd1ccd
+  PrettyLogger: 76b604e528979615298bfd51e98fe36011159b1e
+  PromisesObjC: c119f3cd559f50b7ae681fa59dc1acd19173b7e6
+  Protobuf: 176220c526ad8bd09ab1fb40a978eac3fef665f7
+  RxCocoa: 32065309a38d29b5b0db858819b5bf9ef038b601
+  RxDataSources: efee07fa4de48477eca0a4611e6d11e2da9c1114
+  RxLocalizer: 7db2f964848a885d996d36f47f0e88a477cd627a
+  RxMasMagicPills: 7dab8fbe9a4ba10aeace8db363ea5946ce10f9cb
+  RxRelay: d77f7d771495f43c556cbc43eebd1bb54d01e8e9
+  RxSwift: 81470a2074fa8780320ea5fe4102807cb7118178
+  RxTheme: 7cda2f036363a0b620cf07b3480cbbbbb00c1d25
+  SkeletonView: ba5370f41280b2f0a76918bb143c1294232bb4f4
+  Sourcery: e0e8658a1ce6d9f475156ad3ffce4c68f1261b3e
+  SwiftCheck: d1dd04d955cc76620b0f84e087536bd059a11c24
+  SwiftLint: 22ccbbe3b8008684be5955693bab135e0ed6a447
+  SwiftNIOConcurrencyHelpers: 3e32edd4c090a1ae4eb93bc7fbb3b22a7cb439a9
+
+PODFILE CHECKSUM: db03f69c11a9040fa76aab7cd4b3abc5a45bcf41
+
+COCOAPODS: 1.9.3
